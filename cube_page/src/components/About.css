@@ -1,0 +1,123 @@
+.section-title {
+  background-color: #5486f6;
+  padding: 50px 0;
+}
+.section-title h2 {
+  color: #fff;
+  font-size: 36px;
+  position: relative;
+  text-transform: uppercase;
+}
+.section-title .section-anchor {
+  background-color: #5486f6;
+  border-radius: 50px;
+  bottom: -100px;
+  box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 40px;
+  height: 55px;
+  left: 50%;
+  line-height: 58px;
+  position: absolute;
+  width: 55px;
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+.section-title.white-bg {
+  background-color: #fff;
+  box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.1);
+}
+.section-title.white-bg h2 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section-intro {
+  margin-bottom: 60px;
+}
+.section-intro h4 {
+  position: relative;
+  text-transform: uppercase;
+}
+.section-intro .sep {
+  background: transparent url("../assets/images/divider.png") no-repeat scroll
+    center center;
+  display: block;
+  height: 18px;
+  margin-top: 10px;
+  opacity: 0.15;
+}
+.section-intro p {
+  margin-top: 45px;
+}
+/* service */
+.service-item {
+    background-color: #f7f7f7;
+    padding: 0px 30px 60px;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .service-item.reverse {
+    background-color: #fff;
+  }
+  .service-item.reverse .icon::after {
+    background-color: #f7f7f7;
+  }
+  .service-item .service-inner {
+    overflow: hidden;
+  }
+  .service-item .icon {
+    display: inline-block;
+    font-size: 40px;
+    height: 130px;
+    line-height: 90px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 130px;
+    z-index: 0;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease 0s;
+    -o-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
+  }
+  .service-item .icon::after {
+    background-color: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    z-index: -1;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .service-item h3 {
+    margin-bottom: 18px;
+  }
+  .service-item:hover {
+    background-color: #fff;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.1);
+  }
+  .service-item:hover .icon {
+    color: #fff;
+  }
+  .service-item:hover .icon::after {
+    background-color: #5486f6;
+  }
+  
+  .col-md-3 .service-item {
+    margin-bottom: 30px;
+  }
